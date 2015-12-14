@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC3788F8A7DEB57537DFC2C /* Pods_OnionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7816F139B2AC2BC20B24F85B /* Pods_OnionsFramework.framework */; };
 		1EEE68B91C1F326A001CDB89 /* OnionsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE68B81C1F326A001CDB89 /* OnionsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EEE68C01C1F326A001CDB89 /* OnionsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEE68B51C1F326A001CDB89 /* OnionsFramework.framework */; };
 		1EEE68C51C1F326A001CDB89 /* OnionsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68C41C1F326A001CDB89 /* OnionsFrameworkTests.swift */; };
+		1EEE68D41C1F3330001CDB89 /* OCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68D31C1F3330001CDB89 /* OCSession.swift */; };
+		1EEE68D61C1F339F001CDB89 /* OCOnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68D51C1F339F001CDB89 /* OCOnion.swift */; };
+		1EEE68D81C1F757E001CDB89 /* OCSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68D71C1F757E001CDB89 /* OCSecurity.swift */; };
+		1EEE68DB1C1F7678001CDB89 /* OCClosureDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68DA1C1F7678001CDB89 /* OCClosureDefinitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CD01E379A0FCEDDAB80CBBB /* Pods-OnionsFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionsFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnionsFramework/Pods-OnionsFramework.release.xcconfig"; sourceTree = "<group>"; };
 		1EEE68B51C1F326A001CDB89 /* OnionsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnionsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE68B81C1F326A001CDB89 /* OnionsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnionsFramework.h; sourceTree = "<group>"; };
 		1EEE68BA1C1F326A001CDB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EEE68BF1C1F326A001CDB89 /* OnionsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnionsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE68C41C1F326A001CDB89 /* OnionsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnionsFrameworkTests.swift; sourceTree = "<group>"; };
 		1EEE68C61C1F326A001CDB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEE68D31C1F3330001CDB89 /* OCSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCSession.swift; path = Session/OCSession.swift; sourceTree = "<group>"; };
+		1EEE68D51C1F339F001CDB89 /* OCOnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCOnion.swift; path = Models/OCOnion.swift; sourceTree = "<group>"; };
+		1EEE68D71C1F757E001CDB89 /* OCSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCSecurity.swift; path = Security/OCSecurity.swift; sourceTree = "<group>"; };
+		1EEE68DA1C1F7678001CDB89 /* OCClosureDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCClosureDefinitions.swift; path = Helpers/OCClosureDefinitions.swift; sourceTree = "<group>"; };
+		7816F139B2AC2BC20B24F85B /* Pods_OnionsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnionsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F631CEF60589F1BC00121F18 /* Pods-OnionsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionsFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnionsFramework/Pods-OnionsFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC3788F8A7DEB57537DFC2C /* Pods_OnionsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +69,8 @@
 				1EEE68B71C1F326A001CDB89 /* OnionsFramework */,
 				1EEE68C31C1F326A001CDB89 /* OnionsFrameworkTests */,
 				1EEE68B61C1F326A001CDB89 /* Products */,
+				8B87DF1A7CF8C71CD34BE832 /* Pods */,
+				D4D6F435960F0C80F7DC93F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,10 @@
 		1EEE68B71C1F326A001CDB89 /* OnionsFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1EEE68D91C1F7657001CDB89 /* Helpers */,
+				1EEE68D11C1F32E7001CDB89 /* Models */,
+				1EEE68D01C1F32E2001CDB89 /* Security */,
+				1EEE68CF1C1F32DB001CDB89 /* Session */,
 				1EEE68B81C1F326A001CDB89 /* OnionsFramework.h */,
 				1EEE68BA1C1F326A001CDB89 /* Info.plist */,
 			);
@@ -84,6 +103,55 @@
 				1EEE68C61C1F326A001CDB89 /* Info.plist */,
 			);
 			path = OnionsFrameworkTests;
+			sourceTree = "<group>";
+		};
+		1EEE68CF1C1F32DB001CDB89 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE68D31C1F3330001CDB89 /* OCSession.swift */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		1EEE68D01C1F32E2001CDB89 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE68D71C1F757E001CDB89 /* OCSecurity.swift */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		1EEE68D11C1F32E7001CDB89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE68D51C1F339F001CDB89 /* OCOnion.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1EEE68D91C1F7657001CDB89 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE68DA1C1F7678001CDB89 /* OCClosureDefinitions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8B87DF1A7CF8C71CD34BE832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F631CEF60589F1BC00121F18 /* Pods-OnionsFramework.debug.xcconfig */,
+				1CD01E379A0FCEDDAB80CBBB /* Pods-OnionsFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4D6F435960F0C80F7DC93F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7816F139B2AC2BC20B24F85B /* Pods_OnionsFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EEE68C91C1F326A001CDB89 /* Build configuration list for PBXNativeTarget "OnionsFramework" */;
 			buildPhases = (
+				3669C0169416CD227C645435 /* Check Pods Manifest.lock */,
 				1EEE68B01C1F326A001CDB89 /* Sources */,
 				1EEE68B11C1F326A001CDB89 /* Frameworks */,
 				1EEE68B21C1F326A001CDB89 /* Headers */,
 				1EEE68B31C1F326A001CDB89 /* Resources */,
+				6FD3E40666B64F2EFE564436 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +259,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3669C0169416CD227C645435 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FD3E40666B64F2EFE564436 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnionsFramework/Pods-OnionsFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EEE68B01C1F326A001CDB89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEE68DB1C1F7678001CDB89 /* OCClosureDefinitions.swift in Sources */,
+				1EEE68D41C1F3330001CDB89 /* OCSession.swift in Sources */,
+				1EEE68D81C1F757E001CDB89 /* OCSecurity.swift in Sources */,
+				1EEE68D61C1F339F001CDB89 /* OCOnion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,29 +414,36 @@
 		};
 		1EEE68CA1C1F326A001CDB89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F631CEF60589F1BC00121F18 /* Pods-OnionsFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = OnionsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.subvertllc.OnionsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1EEE68CB1C1F326A001CDB89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD01E379A0FCEDDAB80CBBB /* Pods-OnionsFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = OnionsFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.subvertllc.OnionsFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +490,7 @@
 				1EEE68CB1C1F326A001CDB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EEE68CC1C1F326A001CDB89 /* Build configuration list for PBXNativeTarget "OnionsFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +499,7 @@
 				1EEE68CE1C1F326A001CDB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
