@@ -6,8 +6,6 @@
 //  Copyright © 2015 subvertllc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for OnionsFramework.
 FOUNDATION_EXPORT double OnionsFrameworkVersionNumber;
 
