@@ -1,6 +1,6 @@
 PODS:
   - Bolts/Tasks (1.5.0)
-  - Parse (1.10.0):
+  - Parse (1.11.0):
     - Bolts/Tasks (~> 1.5)
   - RNCryptor (4.0.0)
 
@@ -10,7 +10,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
-  Parse: 90b2544822200f84b18bfacc4e8b0a3a6c3584a2
+  Parse: 886af46a0a677402f6374bb97ac212e795f70afe
   RNCryptor: 59d6483908115af5c12b884db23392024e52a5fe
 
 COCOAPODS: 0.39.0

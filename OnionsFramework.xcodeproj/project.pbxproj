@@ -39,6 +39,7 @@
 		1EEE68D51C1F339F001CDB89 /* OCOnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCOnion.swift; path = Models/OCOnion.swift; sourceTree = "<group>"; };
 		1EEE68D71C1F757E001CDB89 /* OCSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCSecurity.swift; path = Security/OCSecurity.swift; sourceTree = "<group>"; };
 		1EEE68DA1C1F7678001CDB89 /* OCClosureDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OCClosureDefinitions.swift; path = Helpers/OCClosureDefinitions.swift; sourceTree = "<group>"; };
+		1EEE68DC1C1F932D001CDB89 /* OnionsFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnionsFramework-Bridging-Header.h"; sourceTree = "<group>"; };
 		7816F139B2AC2BC20B24F85B /* Pods_OnionsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnionsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F631CEF60589F1BC00121F18 /* Pods-OnionsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnionsFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnionsFramework/Pods-OnionsFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +93,7 @@
 				1EEE68CF1C1F32DB001CDB89 /* Session */,
 				1EEE68B81C1F326A001CDB89 /* OnionsFramework.h */,
 				1EEE68BA1C1F326A001CDB89 /* Info.plist */,
+				1EEE68DC1C1F932D001CDB89 /* OnionsFramework-Bridging-Header.h */,
 			);
 			path = OnionsFramework;
 			sourceTree = "<group>";
