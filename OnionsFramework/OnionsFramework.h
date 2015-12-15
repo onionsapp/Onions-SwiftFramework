@@ -6,6 +6,8 @@
 //  Copyright © 2015 subvertllc. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 //! Project version number for OnionsFramework.
 FOUNDATION_EXPORT double OnionsFrameworkVersionNumber;
 
@@ -13,5 +15,3 @@ FOUNDATION_EXPORT double OnionsFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char OnionsFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <OnionsFramework/PublicHeader.h>
-
-
