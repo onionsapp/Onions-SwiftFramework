@@ -15,6 +15,7 @@
 		1EEE68D61C1F339F001CDB89 /* OCOnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68D51C1F339F001CDB89 /* OCOnion.swift */; };
 		1EEE68D81C1F757E001CDB89 /* OCSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68D71C1F757E001CDB89 /* OCSecurity.swift */; };
 		1EEE68DB1C1F7678001CDB89 /* OCClosureDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE68DA1C1F7678001CDB89 /* OCClosureDefinitions.swift */; };
+		1EEE68DD1C1F957F001CDB89 /* OnionsFramework-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE68DC1C1F932D001CDB89 /* OnionsFramework-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EEE68B91C1F326A001CDB89 /* OnionsFramework.h in Headers */,
+				1EEE68DD1C1F957F001CDB89 /* OnionsFramework-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

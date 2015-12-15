@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OnionsFramework"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "OnionsFramework allows connection to the Onions DB for iOS/OSX"
   s.description  = "OnionsFramework is the backend framework that powers the Onions iOS app and other future OSX/iOS clients."
 
@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
 
   s.dependency "RNCryptor"
   s.dependency "Parse"
-
 end
